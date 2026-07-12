@@ -1,0 +1,8 @@
+title: Disha IISER Pune
+description: The student-led social outreach club of IISER Pune.
+url: "https://disha-iiserpune.github.io"
+
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
