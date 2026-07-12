@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import ProgramCard from '../../components/ProgramCard.astro';
+
+const all = (await getCollection('programs')).sort((a, b) => a.data.order - b.data.order);
+const active = all.filter((p) => p.data.active);
+const past = all.filter((p) => !p.data.active);
+---
+
+<Base title="Programmes" description="Disha's programmes — Abhyasika, Mindspark, Pradnya, Science Nurture Program, Spread the Smile, and more.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Our Programmes</h1>
+      <p>Education at the centre — each programme meets children where they are.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="grid">
+      {active.map((program) => <ProgramCard program={program} />)}
+    </div>
+
+    {past.length > 0 && (
+      <>
+        <h2 class="past-heading">Past programmes</h2>
+        <p class="section-intro">
+          Programmes that have wound down, preserved here as part of Disha's story.
+        </p>
+        <div class="grid past-grid">
+          {past.map((program) => <ProgramCard program={program} />)}
+        </div>
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .past-heading { margin-top: 3rem; font-size: 1.5rem; }
+  .past-grid { margin-top: 1.5rem; }
+</style>

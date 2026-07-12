@@ -1,0 +1,21 @@
+{
+  "name": "disha-website",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.3",
+    "@fontsource-variable/baloo-2": "^5.2.0",
+    "@fontsource/mukta": "^5.2.0",
+    "astro": "^5.7.0"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true,
+    "esbuild@0.25.12": true
+  }
+}

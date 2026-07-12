@@ -1,0 +1,83 @@
+---
+import Base from '../layouts/Base.astro';
+
+const generalCoordinators = [
+  { name: 'Mukul', email: 'mukul.20221164@students.iiserpune.ac.in' },
+  { name: 'Raghav Kapoor', email: 'raghav.kapoor@students.iiserpune.ac.in' },
+  { name: 'Preetham', email: 'preetham.20221200@students.iiserpune.ac.in' },
+];
+
+const programmeCoordinators = [
+  { programme: 'Abhyasika', people: ['Lakshmi Priya M', 'Sanskruti Rameshwar Nalawade', 'Sanvi Moreshwar Gurpude', 'Sreya Pradeep'] },
+  { programme: 'Mindspark', people: ['Aditya Pathak', 'Pranshu Nemani', 'Ruturaj Alornekar'] },
+  { programme: 'Science Nurture Program', people: ['Hriday Sharma', 'Keyur Kulkarni', 'Vihan Ashra'] },
+  { programme: 'Spread The Smile', people: ['Nayana Suvarnakar', 'Komal'] },
+];
+
+const coreTeam = [
+  'Yojit Kumar (Finance Coordinator)',
+  'Niti',
+  'Arshad',
+  'Piyush',
+  'Prajwal Mangal',
+  'Nishad Nanavati',
+  'Ekam',
+  'Abhiram Gajre',
+  'Neha Nair',
+];
+---
+
+<Base title="Our Team" description="The coordinators and core team running Disha, IISER Pune.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Our Team</h1>
+      <p>The volunteers coordinating Disha's programmes this academic year.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <h2>General Coordinators</h2>
+    <div class="grid team-grid">
+      {generalCoordinators.map((p) => (
+        <div class="card person">
+          <h3>{p.name}</h3>
+          <a href={`mailto:${p.email}`}>{p.email}</a>
+        </div>
+      ))}
+    </div>
+
+    <h2>Programme Coordinators</h2>
+    <div class="grid team-grid">
+      {programmeCoordinators.map((g) => (
+        <div class="card person">
+          <h3>{g.programme}</h3>
+          <ul>
+            {g.people.map((name) => <li>{name}</li>)}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <h2>Core Team</h2>
+    <div class="card person core">
+      <ul class="core-list">
+        {coreTeam.map((name) => <li>{name}</li>)}
+      </ul>
+    </div>
+  </div>
+</Base>
+
+<style>
+  h2 { margin-block: 2rem 1rem; font-size: 1.5rem; }
+  h2:first-of-type { margin-top: 0; }
+  .person { padding: 1.3rem 1.5rem; }
+  .person h3 { font-size: 1.15rem; margin-bottom: 0.4rem; color: var(--terracotta); }
+  .person a { font-size: 0.92rem; word-break: break-all; }
+  .person ul { list-style: none; padding: 0; }
+  .person li + li { margin-top: 0.3rem; }
+  .core-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.5rem 1.5rem;
+  }
+</style>

@@ -1,0 +1,77 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  currentId?: string;
+}
+const { currentId } = Astro.props;
+
+const SECTION_ORDER = [
+  'Organisation',
+  'Teaching Resources',
+  'Abhyasika Centres',
+  'Spread the Smile Archive',
+  'Archive',
+  'General',
+];
+
+const entries = await getCollection('wiki');
+const sections = new Map<string, typeof entries>();
+for (const e of entries) {
+  const s = e.data.section;
+  if (!sections.has(s)) sections.set(s, []);
+  sections.get(s)!.push(e);
+}
+const ordered = [...sections.entries()].sort(
+  (a, b) => SECTION_ORDER.indexOf(a[0]) - SECTION_ORDER.indexOf(b[0])
+);
+for (const [, list] of ordered) list.sort((a, b) => a.data.order - b.data.order);
+---
+
+<nav class="wiki-sidebar" aria-label="Wiki">
+  {ordered.map(([section, list]) => (
+    <details open={list.some((e) => e.id === currentId) || !currentId}>
+      <summary>{section}</summary>
+      <ul>
+        {list.map((e) => (
+          <li>
+            <a href={`/wiki/${e.id}`} class:list={{ active: e.id === currentId }}>{e.data.title}</a>
+          </li>
+        ))}
+      </ul>
+    </details>
+  ))}
+</nav>
+
+<style>
+  .wiki-sidebar details + details { margin-top: 0.6rem; }
+  .wiki-sidebar summary {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--book-brown);
+    cursor: pointer;
+    padding: 0.35rem 0.5rem;
+    border-radius: 8px;
+  }
+  .wiki-sidebar summary:hover { background: var(--sand); }
+  .wiki-sidebar ul { list-style: none; padding: 0.2rem 0 0.4rem 0.9rem; margin: 0; }
+  .wiki-sidebar a {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: var(--ink-soft);
+    border-left: 2px solid var(--line);
+    border-radius: 0 6px 6px 0;
+  }
+  .wiki-sidebar a:hover { color: var(--terracotta); background: var(--sand); }
+  .wiki-sidebar a.active {
+    color: var(--terracotta);
+    border-left-color: var(--terracotta);
+    font-weight: 600;
+    background: color-mix(in srgb, var(--terracotta) 7%, transparent);
+  }
+</style>

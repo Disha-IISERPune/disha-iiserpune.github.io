@@ -1,0 +1,50 @@
+---
+import { readdir } from 'node:fs/promises';
+import Base from '../layouts/Base.astro';
+
+// Photographs only — skip logos, icons, and clip-art assets.
+const EXCLUDE = /logo|faces_users|education_science|seo-45|unsplash|cropped-disha|poster|_edit/i;
+const files = (await readdir('public/images'))
+  .filter((f) => /\.(jpe?g|png)$/i.test(f) && !EXCLUDE.test(f))
+  .sort();
+---
+
+<Base title="Gallery" description="Photographs from Disha's activities over the years.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Gallery</h1>
+      <p>
+        Moments from over a decade of teaching, camps, and campaigns. For recent photos, follow us on
+        <a href="https://www.instagram.com/disha.iiserpune/" target="_blank" rel="noopener">Instagram</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="gallery-grid">
+      {files.map((f) => (
+        <a href={`/images/${f}`} target="_blank" rel="noopener" class="gallery-item">
+          <img src={`/images/${f}`} alt="Disha activity photograph" loading="lazy" />
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .gallery-grid {
+    columns: 4 240px;
+    column-gap: 1rem;
+  }
+  .gallery-item {
+    display: block;
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+  }
+  .gallery-item:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .gallery-item img { width: 100%; }
+</style>

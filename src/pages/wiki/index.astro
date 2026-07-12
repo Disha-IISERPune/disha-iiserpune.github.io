@@ -1,0 +1,52 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import WikiSidebar from '../../components/WikiSidebar.astro';
+
+const count = (await getCollection('wiki')).length;
+---
+
+<Base title="Wiki" description="Disha's knowledge base — organisational documents, teaching resources, and archives.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Disha Wiki</h1>
+      <p>{count} pages of institutional memory — how Disha runs, what we teach, and where we've been.</p>
+    </div>
+  </div>
+
+  <div class="container section wiki-layout">
+    <WikiSidebar />
+    <div class="prose wiki-welcome">
+      <h2>Welcome to the wiki</h2>
+      <p>
+        This is Disha's knowledge base. It preserves everything from the old website and is meant to
+        grow: meeting notes, how-to guides for coordinators, teaching material, and anything future
+        volunteers will thank you for writing down.
+      </p>
+      <ul>
+        <li><strong>Organisation</strong> — the constitution, membership scheme, funds, and teams.</li>
+        <li><strong>Teaching Resources</strong> — activities, experiments, and games used in sessions.</li>
+        <li><strong>Abhyasika Centres</strong> — the places where Disha has taught over the years.</li>
+        <li><strong>Spread the Smile Archive</strong> — reports and reviews from past campaigns.</li>
+        <li><strong>Archive</strong> — everything else worth keeping.</li>
+      </ul>
+      <p>
+        To add a page, drop a markdown file into <code>src/content/wiki/</code> with a
+        <code>title</code> and <code>section</code> in its frontmatter — it will appear in the
+        sidebar automatically.
+      </p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .wiki-layout {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+  @media (max-width: 760px) {
+    .wiki-layout { grid-template-columns: 1fr; }
+  }
+</style>

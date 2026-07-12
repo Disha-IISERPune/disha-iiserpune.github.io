@@ -1,0 +1,47 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import PostCard from '../../components/PostCard.astro';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const byYear = new Map<number, typeof posts>();
+for (const post of posts) {
+  const y = post.data.date.getFullYear();
+  if (!byYear.has(y)) byYear.set(y, []);
+  byYear.get(y)!.push(post);
+}
+---
+
+<Base title="Blog" description="Updates and stories from Disha's work — 2012 to today.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Blog</h1>
+      <p>Stories and updates from the field, going back to 2012.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    {[...byYear.entries()].map(([year, yearPosts]) => (
+      <section class="year-block">
+        <h2>{year}</h2>
+        <div class="grid">
+          {yearPosts.map((post) => <PostCard post={post} />)}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .year-block + .year-block { margin-top: 3rem; }
+  .year-block h2 {
+    font-size: 1.6rem;
+    color: var(--terracotta);
+    border-bottom: 2px dashed var(--line);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.3rem;
+  }
+</style>

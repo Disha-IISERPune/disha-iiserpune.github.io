@@ -1,0 +1,57 @@
+---
+import Base from '../layouts/Base.astro';
+
+const clippings = [
+  { src: '/images/news/maharashtra-times-article_halya.jpg', caption: 'Maharashtra Times' },
+  { src: '/images/news/pune-newsline-article-about-bachpan-banao.jpg', caption: 'Pune Newsline — Bachpan Banao' },
+  { src: '/images/news/sakal-times-bachpan-banao.jpg', caption: 'Sakal Times — Bachpan Banao' },
+  { src: '/images/news/spread-the-smile-2013_indian-express.jpg', caption: 'Indian Express — Spread the Smile 2013' },
+  { src: '/images/news/spread-the-smile-2013_sakal-times.jpg', caption: 'Sakal Times — Spread the Smile 2013' },
+  { src: '/images/news/spread-the-smile2013_lokmat.jpg', caption: 'Lokmat — Spread the Smile 2013' },
+  { src: '/images/news/jigyasa_indian-express.jpg', caption: 'Indian Express — Jigyasa' },
+  { src: '/images/news/jigyasa_loksatta.jpg', caption: 'Loksatta — Jigyasa' },
+  { src: '/images/news/jigyasa_sakal.jpg', caption: 'Sakal — Jigyasa' },
+  { src: '/images/disha_dna.jpg', caption: 'DNA — Disha activities' },
+];
+---
+
+<Base title="Disha in the News" description="Newspaper coverage of Disha's work — Indian Express, Sakal, Lokmat, Maharashtra Times, and more.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Disha in the News</h1>
+      <p>Our work, as covered by newspapers over the years.</p>
+    </div>
+  </div>
+
+  <div class="container section">
+    <div class="news-grid">
+      {clippings.map((c) => (
+        <figure class="card clipping">
+          <a href={c.src} target="_blank" rel="noopener">
+            <img src={c.src} alt={`Newspaper clipping: ${c.caption}`} loading="lazy" />
+          </a>
+          <figcaption>{c.caption}</figcaption>
+        </figure>
+      ))}
+    </div>
+  </div>
+</Base>
+
+<style>
+  .news-grid {
+    columns: 3 300px;
+    column-gap: 1.5rem;
+  }
+  .clipping {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+  }
+  .clipping img { width: 100%; }
+  .clipping figcaption {
+    padding: 0.7rem 1rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+    font-family: var(--font-display);
+    font-weight: 600;
+  }
+</style>

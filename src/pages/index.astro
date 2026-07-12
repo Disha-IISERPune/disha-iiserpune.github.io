@@ -1,0 +1,225 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import WarliDivider from '../components/WarliDivider.astro';
+import ProgramCard from '../components/ProgramCard.astro';
+import PostCard from '../components/PostCard.astro';
+
+const programs = (await getCollection('programs'))
+  .filter((p) => p.data.active)
+  .sort((a, b) => a.data.order - b.data.order);
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 3);
+---
+
+<Base title="Home">
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-hello">नमस्ते · Hello Human</p>
+        <h1>We are <span class="hero-disha">Disha</span>.</h1>
+        <p class="hero-lede">
+          A voluntary organisation of IISER Pune students working for a social cause.
+          Since 2010, we have worked at the grassroots — in slums and villages around Pune —
+          to bring quality education to underprivileged young minds and to promote
+          <strong>thinking beyond self</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn--primary" href="/contact">Volunteer with us</a>
+          <a class="btn btn--ghost" href="/programs">Our programmes</a>
+        </div>
+        <p class="hero-social meta">
+          Catch our recent activities on
+          <a href="https://www.instagram.com/disha.iiserpune/" target="_blank" rel="noopener">Instagram</a>.
+        </p>
+      </div>
+      <div class="hero-media">
+        <img
+          src="/images/cropped_disha22_website_edit.png"
+          alt="A young girl standing against a brick wall, an elderly woman sitting in the background."
+          width="580"
+          fetchpriority="high"
+        />
+      </div>
+    </div>
+    <div class="hero-warli"><WarliDivider /></div>
+  </section>
+
+  <!-- What we do -->
+  <section class="section">
+    <div class="container">
+      <p class="section-kicker">What we do</p>
+      <h2 class="section-title">Education at the centre, always</h2>
+      <p class="section-intro">
+        All Disha activities are aimed at children — with education, in its broadest sense, at the
+        centre. Our volunteers step out of campus every week to teach, mentor, and learn alongside
+        students from local communities.
+      </p>
+      <div class="pillars">
+        <div class="pillar card">
+          <img src="/images/education_science-08.png" alt="" width="80" loading="lazy" />
+          <h3>Education</h3>
+          <p>
+            Daily study sessions, structured classroom programmes, and hands-on science —
+            helping children stay in school and grow into confident, independent adults.
+          </p>
+        </div>
+        <div class="pillar card">
+          <img src="/images/seo-45.png" alt="" width="80" loading="lazy" />
+          <h3>Spreading Awareness</h3>
+          <p>
+            Talks, discussions, and campaigns on social issues — nurturing a community of youth
+            who respond to social challenges with energy and intellect.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programmes -->
+  <section class="section section--sand">
+    <div class="container">
+      <p class="section-kicker">Our programmes</p>
+      <h2 class="section-title">Where the work happens</h2>
+      <div class="grid programs-grid">
+        {programs.map((program) => <ProgramCard program={program} />)}
+      </div>
+      <p class="more-link"><a href="/programs">See all programmes, including past ones →</a></p>
+    </div>
+  </section>
+
+  <!-- Recent posts + Pahal -->
+  <section class="section">
+    <div class="container">
+      <p class="section-kicker">Recent happenings</p>
+      <h2 class="section-title">From the blog</h2>
+      <div class="grid">
+        {posts.map((post) => <PostCard post={post} />)}
+      </div>
+      <div class="pahal-band card">
+        <img src="/images/pahal_temp_logo.png" alt="Pahal logo" width="90" loading="lazy" />
+        <div>
+          <h3>Read our newsletter — Pahal</h3>
+          <p>Your yearly roundup of everything that happened in Disha.</p>
+        </div>
+        <a class="btn btn--primary" href="/programs/pahal">Get Pahal</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container cta-inner">
+      <h2>Every one of us has that fire to do good. This is an appeal to it.</h2>
+      <a class="btn btn--light" href="/contact">Join Disha</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    background: var(--sand);
+    border-bottom: 1px solid var(--line);
+  }
+  .hero-grid {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: center;
+    padding-block: clamp(2.5rem, 7vw, 5rem) clamp(1.5rem, 4vw, 3rem);
+  }
+  .hero-hello {
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: var(--ochre);
+    letter-spacing: 0.08em;
+    margin-bottom: 0.4rem;
+  }
+  .hero h1 {
+    font-size: clamp(2.6rem, 6.5vw, 4.2rem);
+    line-height: 1.05;
+  }
+  .hero-disha { color: var(--terracotta); }
+  .hero-lede {
+    margin-top: 1.1rem;
+    font-size: 1.13rem;
+    color: var(--ink-soft);
+    max-width: 56ch;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    margin-top: 1.6rem;
+  }
+  .hero-social { margin-top: 1.2rem; }
+  .hero-media img {
+    border-radius: 200px 200px var(--radius) var(--radius);
+    box-shadow: var(--shadow-lg);
+    border: 6px solid var(--card-bg);
+  }
+  .hero-warli {
+    color: var(--book-brown);
+    opacity: 0.5;
+    padding-bottom: 0.8rem;
+    max-width: 1120px;
+    margin-inline: auto;
+  }
+
+  .pillars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .pillar {
+    padding: 1.8rem;
+    text-align: center;
+  }
+  .pillar img { margin-inline: auto; }
+  .pillar h3 { margin-top: 0.8rem; font-size: 1.35rem; }
+  .pillar p { color: var(--muted); margin-top: 0.5rem; }
+
+  .programs-grid { margin-top: 2rem; }
+  .more-link { margin-top: 1.6rem; font-family: var(--font-display); font-weight: 600; }
+
+  .pahal-band {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+  }
+  .pahal-band > div { flex: 1; min-width: 220px; }
+  .pahal-band p { color: var(--muted); }
+
+  .cta-band {
+    background: var(--terracotta);
+    color: #fff8f2;
+    padding-block: clamp(2.5rem, 6vw, 4rem);
+  }
+  .cta-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  .cta-inner h2 {
+    color: #fff8f2;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    max-width: 34ch;
+  }
+  .btn--light { background: #fff8f2; color: var(--terracotta-deep); }
+  .btn--light:hover { background: #fff; color: var(--terracotta-deep); }
+
+  @media (max-width: 880px) {
+    .hero-grid { grid-template-columns: 1fr; }
+    .hero-media { order: -1; }
+    .hero-media img { max-height: 320px; width: 100%; object-fit: cover; object-position: top; }
+  }
+</style>

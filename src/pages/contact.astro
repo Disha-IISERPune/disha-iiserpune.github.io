@@ -1,0 +1,53 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="Contact" description="Get in touch with Disha, IISER Pune — volunteer, collaborate, or just say hello.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Volunteer, collaborate, or just say hello — we'd love to hear from you.</p>
+    </div>
+  </div>
+
+  <div class="container section contact-grid">
+    <div class="card contact-card">
+      <h2>Write to us</h2>
+      <p>
+        For any queries, reach us at<br />
+        <a href="mailto:disha@sac.iiserpune.ac.in"><strong>disha@sac.iiserpune.ac.in</strong></a>
+      </p>
+      <p class="meta">We usually respond within a few days.</p>
+    </div>
+
+    <div class="card contact-card">
+      <h2>Find us</h2>
+      <address>
+        Indian Institute of Science Education and Research (IISER)<br />
+        Dr Homi Bhabha Road<br />
+        Pashan, Pune – 411008
+      </address>
+    </div>
+
+    <div class="card contact-card">
+      <h2>Follow us</h2>
+      <ul>
+        <li><a href="https://www.instagram.com/disha.iiserpune/" target="_blank" rel="noopener">Instagram — @disha.iiserpune</a></li>
+        <li><a href="https://www.facebook.com/iiserpunedisha/" target="_blank" rel="noopener">Facebook — iiserpunedisha</a></li>
+      </ul>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  .contact-card { padding: 1.6rem 1.8rem; }
+  .contact-card h2 { font-size: 1.3rem; margin-bottom: 0.7rem; color: var(--terracotta); }
+  .contact-card ul { list-style: none; padding: 0; }
+  .contact-card li + li { margin-top: 0.4rem; }
+  address { font-style: normal; }
+</style>
