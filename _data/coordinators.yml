@@ -1,0 +1,11 @@
+- name: "fname1 lname1"
+  role: "General Coordinator"
+  email: "fname1lname1@students.iiserpune.ac.in"
+
+- name: "fname2 lname2"
+  role: "General Coordinator"
+  email: "fname2lname2@students.iiserpune.ac.in"
+
+- name: "fname3 lname3"
+  role: "Abhyasika Coordinator"
+  email: "fname3lname3@students.iiserpune.ac.in"

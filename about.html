@@ -1,0 +1,49 @@
+---
+layout: default
+title: About Us
+---
+
+<!-- Intro Section -->
+<div class="card animate-up delay-1">
+  <h2>About Disha</h2>
+  <p>Founded in 2010, Disha is the student-led social outreach club of IISER Pune. We believe that education is a right, not a privilege. Through our various initiatives, our volunteers step outside the campus to mentor, teach, and learn alongside students from local communities.</p>
+</div>
+
+<!-- Coordinators Section -->
+<div class="card animate-up delay-2">
+  <h3 style="margin-bottom: 5px;">Meet the Team</h3>
+  <p style="margin-top: 0; margin-bottom: 25px; color: #64748B;">The coordinators leading our initiatives for the current academic year.</p>
+  
+  <!-- CSS Grid for responsive layout (side-by-side on desktop, stacked on mobile) -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+    
+    <!-- THE LIQUID LOOP: Jekyll reads your YAML file here -->
+    {% for person in site.data.coordinators %}
+    
+    <!-- Individual Profile Block -->
+    <div style="background: var(--bg-color); padding: 25px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.04);">
+      
+      <h4 style="margin-bottom: 5px; color: var(--brand-navy); font-size: 1.2em;">{{ person.name }}</h4>
+      <p style="margin: 0 0 15px 0; font-weight: 600; font-size: 0.9em; color: var(--brand-teal);">{{ person.role }}</p>
+      
+      <!-- Only show email if it exists in the YAML file -->
+      {% if person.email %}
+      <a href="mailto:{{ person.email }}" style="display: block; font-size: 0.9em; text-decoration: none; color: var(--text-main); margin-bottom: 5px;">
+        ✉️ {{ person.email }}
+      </a>
+      {% endif %}
+
+      <!-- Only show phone if it exists in the YAML file -->
+      {% if person.phone %}
+      <a href="tel:{{ person.phone }}" style="display: block; font-size: 0.9em; text-decoration: none; color: var(--text-main);">
+        📞 {{ person.phone }}
+      </a>
+      {% endif %}
+
+    </div>
+    
+    {% endfor %}
+    <!-- END OF LOOP -->
+
+  </div>
+</div>
