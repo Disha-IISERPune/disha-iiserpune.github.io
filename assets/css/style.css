@@ -1,60 +1,98 @@
 :root {
-  --bg-color: #FFF9F9;      /* Warm off-white */
-  --text-color: #5D4A4D;    /* Soft dark brown instead of harsh black */
+  --bg-color: #FFF9F9;      
+  --bg-gradient: #F4EEF5;   /* Added for the parallax gradient */
+  --text-color: #5D4A4D;    
   --pastel-pink: #FFB7B2;
-  --pastel-green: #9DC08B;
+  --pastel-green: #9DC08B;  /* Your updated sage green! */
   --pastel-blue: #C7CEEA;
   --pastel-yellow: #FFDAC1;
 }
 
 body {
   font-family: 'Quicksand', sans-serif;
-  background-color: var(--bg-color);
+  /* CSS Parallax: The background stays locked while content scrolls over it */
+  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-gradient) 100%);
+  background-attachment: fixed; 
   color: var(--text-color);
-  line-height: 1.6;
+  line-height: 1.7; /* Slightly looser line-height for better readability */
   margin: 0;
   padding: 0;
 }
 
-/* Cute Header */
+/* Sophisticated Header */
 .site-header {
-  background-color: var(--pastel-pink);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px); /* Gives a premium "frosted glass" effect */
   padding: 20px;
   text-align: center;
-  border-bottom: 4px dashed white;
+  border-bottom: 2px solid var(--pastel-pink);
+  position: sticky; /* Keeps the header at the top as you scroll */
+  top: 0;
+  z-index: 100;
 }
 
 .site-header a {
-  color: white;
+  color: var(--pastel-pink);
   text-decoration: none;
   font-weight: 700;
   font-size: 2rem;
+  letter-spacing: -0.5px;
 }
 
 /* Main Content Area */
 .content-container {
   max-width: 800px;
-  margin: 40px auto;
+  margin: 50px auto;
   padding: 0 20px;
 }
 
-/* Card styling for Markdown pages */
+/* Upgraded Cards with Hover Effects */
 .card {
-  background: white;
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 10px 20px rgba(255, 183, 178, 0.15);
-  border: 3px solid var(--pastel-yellow);
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(93, 74, 77, 0.05); /* Softer, wider shadow */
+  border: 1px solid rgba(0,0,0,0.03); /* Replaced heavy colored borders with a subtle outline */
+  border-top: 5px solid var(--pastel-yellow); /* Keep a pop of color at the top */
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
 }
 
-/* Rounded, friendly buttons/links */
-a {
-  color: #9B9ECE;
+.card:hover {
+  transform: translateY(-8px); /* Lifts up on hover */
+  box-shadow: 0 20px 40px rgba(93, 74, 77, 0.1);
+}
+
+/* Modern Animated Buttons */
+.btn {
+  display: inline-block;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  margin: 8px;
   font-weight: 600;
   text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-a:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--pastel-pink);
-  text-decoration-thickness: 3px;
+
+.btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  color: white;
 }
+
+/* --- ANIMATIONS --- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-up {
+  opacity: 0; /* Hide initially */
+  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Staggered delays so cards load in sequence */
+.delay-1 { animation-delay: 0.1s; }
+.delay-2 { animation-delay: 0.25s; }
+.delay-3 { animation-delay: 0.4s; }
