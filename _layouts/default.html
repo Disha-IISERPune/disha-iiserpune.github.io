@@ -4,17 +4,27 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Fixed the unescaped ampersand here which can crash strict parsers -->
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&amp;display=swap" rel="stylesheet">
-  <!-- Simplified the CSS link -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- CORRECTED: Using Jekyll's relative_url filter for the CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
   <header class="site-header">
-    <!-- Removed the emoji which can sometimes cause UTF-8 encoding build errors -->
-    <h1><a href="/">{{ site.title }}</a></h1>
+    <div class="header-content">
+      <div class="logo">
+        <a href="{{ '/' | relative_url }}">Disha</a>
+      </div>
+      
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about.html' | relative_url }}">About Us</a>
+        <a href="{{ '/wiki/' | relative_url }}">Wiki</a>
+      </nav>
+    </div>
   </header>
   
   <main class="content-container">

@@ -1,98 +1,140 @@
+/* --- MODERN PALETTE --- */
 :root {
-  --bg-color: #FFF9F9;      
-  --bg-gradient: #F4EEF5;   /* Added for the parallax gradient */
-  --text-color: #5D4A4D;    
-  --pastel-pink: #FFB7B2;
-  --pastel-green: #9DC08B;  /* Your updated sage green! */
-  --pastel-blue: #C7CEEA;
-  --pastel-yellow: #FFDAC1;
+  --bg-color: #F8FAFC;         /* Very light, clean slate background */
+  --card-bg: #FFFFFF;          /* Crisp white cards */
+  --text-main: #334155;        /* Slate 700 - Softer than black, highly readable */
+  --text-heading: #0F172A;     /* Slate 900 - Deep, punchy contrast for titles */
+  
+  /* Rich, accessible accent colors */
+  --brand-navy: #1E3A8A;       /* Sophisticated primary color */
+  --brand-teal: #0D9488;       /* Friendly, grounded secondary color */
+  --brand-coral: #E11D48;      /* Warm action color for buttons */
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
-  /* CSS Parallax: The background stays locked while content scrolls over it */
-  background: linear-gradient(135deg, var(--bg-color) 0%, var(--bg-gradient) 100%);
-  background-attachment: fixed; 
-  color: var(--text-color);
-  line-height: 1.7; /* Slightly looser line-height for better readability */
+  /* Use a clean, professional sans-serif for body text */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.7;
   margin: 0;
   padding: 0;
 }
 
-/* Sophisticated Header */
+/* Keep Quicksand ONLY for headings to maintain a friendly vibe */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  color: var(--text-heading);
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* --- THE HEADER --- */
 .site-header {
-  background-color: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px); /* Gives a premium "frosted glass" effect */
-  padding: 20px;
-  text-align: center;
-  border-bottom: 2px solid var(--pastel-pink);
-  position: sticky; /* Keeps the header at the top as you scroll */
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  position: sticky;
   top: 0;
   z-index: 100;
 }
 
-.site-header a {
-  color: var(--pastel-pink);
-  text-decoration: none;
-  font-weight: 700;
-  font-size: 2rem;
-  letter-spacing: -0.5px;
+.header-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Main Content Area */
+.logo a {
+  color: var(--brand-navy);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.5px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* --- NAVIGATION --- */
+.site-nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.site-nav a {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 8px 16px;
+  border-radius: 8px; /* Sophisticated slight rounding, not a full pill */
+  transition: all 0.2s ease;
+}
+
+.site-nav a:hover {
+  background-color: #F1F5F9;
+  color: var(--brand-navy);
+}
+
+/* --- MAIN CONTENT & CARDS --- */
 .content-container {
   max-width: 800px;
   margin: 50px auto;
   padding: 0 20px;
 }
 
-/* Upgraded Cards with Hover Effects */
 .card {
-  background: #ffffff;
-  border-radius: 24px;
+  background: var(--card-bg);
+  border-radius: 16px; /* Modern, clean curves */
   padding: 40px;
-  box-shadow: 0 10px 30px rgba(93, 74, 77, 0.05); /* Softer, wider shadow */
-  border: 1px solid rgba(0,0,0,0.03); /* Replaced heavy colored borders with a subtle outline */
-  border-top: 5px solid var(--pastel-yellow); /* Keep a pop of color at the top */
-  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), box-shadow 0.4s ease;
+  margin-bottom: 30px;
+  /* Sleek, sophisticated shadow instead of colored borders */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-8px); /* Lifts up on hover */
-  box-shadow: 0 20px 40px rgba(93, 74, 77, 0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
 }
 
-/* Modern Animated Buttons */
+/* --- BUTTONS --- */
 .btn {
   display: inline-block;
-  color: white;
-  padding: 12px 28px;
-  border-radius: 30px;
-  margin: 8px;
+  color: white !important;
+  padding: 12px 24px;
+  border-radius: 8px;
   font-weight: 600;
   text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
 }
 
-.btn:hover {
-  transform: translateY(-3px) scale(1.02);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-  color: white;
+.btn-primary { background-color: var(--brand-navy); }
+.btn-primary:hover { background-color: #1E293B; transform: translateY(-2px); }
+
+.btn-secondary { background-color: var(--brand-teal); }
+.btn-secondary:hover { background-color: #0F766E; transform: translateY(-2px); }
+
+/* --- MOBILE RESPONSIVENESS --- */
+@media (max-width: 600px) {
+  .header-content { flex-direction: column; gap: 10px; }
+  .site-nav { flex-wrap: wrap; justify-content: center; }
+  .card { padding: 25px 20px; }
 }
 
 /* --- ANIMATIONS --- */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(30px); }
+  from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
-
-.animate-up {
-  opacity: 0; /* Hide initially */
-  animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-/* Staggered delays so cards load in sequence */
+.animate-up { opacity: 0; animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
 .delay-1 { animation-delay: 0.1s; }
-.delay-2 { animation-delay: 0.25s; }
-.delay-3 { animation-delay: 0.4s; }
+.delay-2 { animation-delay: 0.2s; }
+.delay-3 { animation-delay: 0.3s; }
