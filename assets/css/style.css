@@ -1,0 +1,60 @@
+:root {
+  --bg-color: #FFF9F9;      /* Warm off-white */
+  --text-color: #5D4A4D;    /* Soft dark brown instead of harsh black */
+  --pastel-pink: #FFB7B2;
+  --pastel-green: #E2F0CB;
+  --pastel-blue: #C7CEEA;
+  --pastel-yellow: #FFDAC1;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cute Header */
+.site-header {
+  background-color: var(--pastel-pink);
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px dashed white;
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+/* Main Content Area */
+.content-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Card styling for Markdown pages */
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 10px 20px rgba(255, 183, 178, 0.15);
+  border: 3px solid var(--pastel-yellow);
+}
+
+/* Rounded, friendly buttons/links */
+a {
+  color: #9B9ECE;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--pastel-pink);
+  text-decoration-thickness: 3px;
+}
