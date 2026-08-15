@@ -5,7 +5,7 @@ summary: "Classroom-based structured education building communication and numeri
 icon: "✏️"
 image: "/images/pradnya-small.jpg"
 order: 4
-active: true
+active: false
 ---
 
 <figure>
