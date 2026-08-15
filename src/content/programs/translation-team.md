@@ -5,7 +5,7 @@ summary: "Making learning material accessible by translating it into regional la
 icon: "🌐"
 image: "/images/translation_team_logo.png"
 order: 8
-active: true
+active: false
 ---
 
 This is our most recent venture to meet the needs of various programmes of Disha. Since most children that we work with understand Marathi or Hindi but many volunteers don’t know these languages that well, we need a system to translate various resources and materials. The translation team was formed with this goal in mind. It now helps all other programmes with their translation demands. It also has some long term goals like making a dictionary in local language for all science related words in terms of daily used words.
