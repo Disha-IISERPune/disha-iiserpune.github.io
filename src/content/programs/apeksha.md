@@ -1,6 +1,6 @@
 ---
 title: "Apeksha"
-date: "2020-02-26"
+date: "2026-08-15"
 summary: "A revamped programme (formerly Prerna) to empower and guide young minds beyond the classroom."
 icon: "🌱"
 image: "/images/img_3631.jpg"
@@ -11,16 +11,17 @@ active: true
 *Apeksha was formerly known as **Prerna**; the page below describes the programme.*
 
 
-Started in 2018, Prerna, aims to aid students with limited opportunities to prepare for 11th and 12th standard exams. Almost all our volunteers for this program are PhD students and with their consistent dedication, we hope to equip these students to ace entrance exams that will shape their careers.
+Started in 2026, Apeksha aims to aid students with limited opportunities to prepare them by addressing their foundations starting in the 9th standard. Our volunteers include, but not limited to, faculty, PhD students, and BS-MS students. We hope to equip these students with a sturdy enough base for them to shape their careers.
 
 **Time**:
 
-- 2:00 PM to 5:00 PM, Saturday
-- 9:00 AM to 6:00 PM, Sunday
+- 3:00 PM to 4:15 PM, Saturday
+- 10:30 AM to 3:30 PM, Sunday
 
 **Place**: LHC, IISER Pune
 
 **Coordinators**:
 
-- Priya Batra ([priya.batra@students.iiserpune.ac.in](mailto:priya.batra@students.iiserpune.ac.in))
-- Debasmita Mitra ([mitra.debasmita@students.iiserpune.ac.in](mailto:mitra.debasmita@students.iiserpune.ac.in))
+- Aakash Gupta ([aakash.gupta@students.iiserpune.ac.in](mailto:aakash.gupta@students.iiserpune.ac.in))
+- Hitesh Kumar ([kumar.hitesh@students.iiserpune.ac.in](mailto:kumar.hitesh@students.iiserpune.ac.in))
+- Kajal Singh ([kajal.singh@students.iiserpune.ac.in](mailto:kajal.singh@students.iiserpune.ac.in))
