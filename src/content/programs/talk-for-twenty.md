@@ -5,7 +5,7 @@ summary: "Weekly talks and discussions on social issues, twenty minutes at a tim
 icon: "🗣️"
 image: "/images/leh-348.jpg"
 order: 7
-active: true
+active: false
 ---
 
 ## We hope to engage the IISER community in thoughtful conversation on various societal aspects and allow them to confront complex social problems and be a part of civil society involving themselves in active citizenship.
