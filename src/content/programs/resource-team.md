@@ -25,8 +25,8 @@ Some pictures of resources used in different programs and while making the model
 An important role of our team is to understand the specific context in which the different teaching resources are being utilised and structure these resources accordingly. For eg., what age group the kids belong to, what kind of schools they study in, whether the school is in a rural or an urban setting, etc.
 
 ### What do we do?
-     We hold sessions where we brainstorm with the volunteers and come up with ideas for experiments, models and activities related to science, social science, general awareness, etc
-     We hold sessions for consolidating these ideas by making working or non-working models, designing activities and modules
+1. We hold sessions where we brainstorm with the volunteers and come up with ideas for experiments, models and activities related to science, social science, general awareness, etc
+2. We hold sessions for consolidating these ideas by making working or non-working models, designing activities and modules
 
 ### Who can join us?
 Anybody who is enthusiastic about making models, designing cool experiments and activities, or maybe just likes to think about new ideas. 
