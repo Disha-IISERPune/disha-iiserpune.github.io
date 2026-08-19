@@ -2,8 +2,8 @@
 title: "Resource Team"
 date: "2026-08-07"
 summary: "Making and providing resources for the other programs of Disha"
-icon: "🪡"
-image: "/images/resource-team.jpeg"
+icon: "🪚"
+image: "/images/resourceteam.jpeg"
 order: 7
 active: true
 ---
