@@ -12,7 +12,7 @@ active: true
 
 ## To spread the joy of education among the children of rural areas and make them aware of the opportunities that await them.
 
-![STS 2020 Poster: Flagship program that aims to expose the kids in villages to the opportunities they have in front of them by helping them identify and analyse the problems they face more critically and analytically, in the hope that they become more confident citizens of the country. STS also connects its volunteers to the roots of the country: our villages! Volunteers get to taste village life: eat their food, walk their roads, live their life.](/images/sts_2020_poster-1.jpg)
+Flagship program that aims to expose the kids in villages to the opportunities they have in front of them by helping them identify and analyse the problems they face more critically and analytically, in the hope that they become more confident citizens of the country. STS also connects its volunteers to the roots of the country: our villages! Volunteers get to taste village life: eat their food, walk their roads, live their life.
 
 #### Who We Cater To
 
