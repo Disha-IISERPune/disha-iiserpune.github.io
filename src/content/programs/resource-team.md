@@ -3,7 +3,7 @@ title: "Resource Team"
 date: "2026-08-07"
 summary: "Making and providing resources for the other programs of Disha"
 icon: "🪚"
-image: "/images/newrt.jpeg"
+image: "/public/images/newrt.jpeg"
 order: 7
 active: true
 ---
