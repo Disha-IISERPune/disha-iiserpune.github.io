@@ -25,8 +25,8 @@ This program offers a good opportunity for people who wish to be part of DISHA b
 
 #### name: Komal 
 
-Email ID : [komal.20231121@students.iiserpune.ac.in] (mailto:komal.20231121@students.iiserpune.ac.in)
+Email ID : [komal.20231121@students.iiserpune.ac.in](mailto:komal.20231121@students.iiserpune.ac.in)
 
 #### Nayana Prakash Suvarnakar
 
-Email ID: [nayana.prakashsuvarnakar@students.iiserpune.ac.in] (mailto:nayana.prakashsuvarnakar@students.iiserpune.ac.in)
+Email ID: [nayana.prakashsuvarnakar@students.iiserpune.ac.in](mailto:nayana.prakashsuvarnakar@students.iiserpune.ac.in)
