@@ -9,7 +9,6 @@ active: true
 ---
 
 
-# Resource team of DISHA
 ### Who are we?
 The various programs under DISHA teach kids in ways that are more practical and hands-on, unlike the conventional school education which is more theoretical.  Demonstration of various models, experiments and engaging kids in different though-provoking activities are some important components of this way of teaching. 
 DISHA Resource Team is meant to cater to these very needs of models and activities of different programs, majorly STS and SNP.
