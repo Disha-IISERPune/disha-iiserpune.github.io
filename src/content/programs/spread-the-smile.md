@@ -8,7 +8,7 @@ order: 6
 active: true
 ---
 
-“**Spread the Smile**” is an outreach campaign, organised every year by Disha. This campaign organised on 3 weekends of January provides an opportunity to the enthusiastic youths of Pune to understand rural India by reaching out to village schools around the city and interacting with the students there through various educational activities.
+**"Spread the Smile”** is an outreach campaign, organised every year by Disha. It gives an opportunity to the enthusiastic youths of IISER Pune to understand rural India by reaching out to village schools around the city and interacting with the students there through various educational activities.
 
 ## To spread the joy of education among the children of rural areas and make them aware of the opportunities that await them.
 
@@ -16,7 +16,7 @@ active: true
 
 #### Who We Cater To
 
-We target middle school students (classes VII - IX) studying in schools in villages 60-100 km around Pune. We choose around 7-8 villages every year based on where we can make the maximum impact.
+We target middle school students (classes 5th - 10th) studying in schools in villages 60-100 km around Pune. We choose around 7-8 villages every year based on where we can make the maximum impact.
 
 #### Why We Cater To Them
 
@@ -24,8 +24,7 @@ Our current education system does not provoke critical thinking, and promotes me
 
 #### How We Do It
 
-Spanning three weekends in January and February, STS involves meeting and interacting with students at villages neighbouring Pune and showing them interesting experiments not just in the sciences, but also in the humanities and social sciences as well.
-
+Usually spanning weekends, a typical STS visit involves meeting and interacting with students at villages neighbouring Pune and showing them interesting experiments not just in the sciences, but also in the humanities and social sciences as well.
 * * *
 
 #### Our Goals
@@ -36,20 +35,14 @@ Spanning three weekends in January and February, STS involves meeting and intera
 
 ## Program Coordinators
 
-![](/images/faces_users-03.png)
+#### Aditya Pathak
 
-#### Anuraag Aithal
+Email ID: [pathak.aditya@students.iiserpune.ac.in](mailto:pathak.aditya@students.iiserpune.ac.in)
 
-Email ID: [gv.anuraag@students.iiserpune.ac.in](mailto:gv.anuraag@students.iiserpune.ac.in)
+#### Arnav Khadkikar
 
-![](/images/faces_users-06.png)
+Email ID: [arnav.khadkikar@students.iiserpune.ac.in](mailto:arnav.khadkikar@students.iiserpune.ac.in)
 
-#### Prajnadipt Ghosh
+#### Vishal Kumar
 
-Email ID: [prajnadipt.ghosh@students.iiserpune.ac.in](mailto:prajnadipt.ghosh@students.iiserpune.ac.in)
-
-![](/images/faces_users-09.png)
-
-#### Richa Agarwal
-
-Email ID: [richa.agarwal@students.iiserpune.ac.in](mailto:richa.agarwal@students.iiserpune.ac.in)
+Email ID: [vishal.kumar@students.iiserpune.ac.in](mailto:vishal.kumar@students.iiserpune.ac.in)
