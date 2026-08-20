@@ -47,14 +47,19 @@ To get closer to the vision of the program
 
 ## Program Coordinators
 
-![](/images/faces_users-06.png)
+<!-- ![](/images/faces_users-06.png) -->
 
-#### Sudeepta Sarkar
+#### Atharv Mishra
 
-Email ID: [sudeepta.sarkar@students.iiserpune.ac.in](mailto:sudeepta.sarkar@students.iiserpune.ac.in)
+Email ID: [atharv.mishra@students.iiserpune.ac.in](mailto:atharv.mishra@students.iiserpune.ac.in)
 
-![](/images/faces_users-02.png)
+<!-- ![](/images/faces_users-02.png) -->
 
-#### Vishal Panchal
+#### Ayesha Jabin
 
-Email ID: [](mailto:pavitra.batra@students.iiserpune.ac.in)[vishal@students.iiserpune.ac.in](mailto:vishal@students.iiserpune.ac.in)
+Email ID: [ayesha.jabin@students.iiserpune.ac.in](mailto:ayesha.jabin@students.iiserpune.ac.in)
+
+#### Saptham
+
+Email ID: [saptham.20251194@students.iiserpune.ac.in](mailto:saptham.20251194@students.iiserpune.ac.in)
+
