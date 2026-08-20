@@ -8,7 +8,7 @@ order: 7
 active: true
 ---
 ### Who are we?
-The various programs under DISHA teach kids in ways that are more practical and hands-on, unlike the conventional school education which is more theoretical.  Demonstration of various models, experiments and engaging kids in different though-provoking activities are some important components of this way of teaching. 
+The various programs under DISHA teach kids in ways that are more practical and hands-on, unlike the conventional school education which is more theoretical.  Demonstration of various models, experiments and engaging kids in different thought-provoking activities are some important components of this way of teaching. 
 DISHA Resource Team is meant to cater to these very needs of models and activities of different programs, majorly STS and SNP.
 <figure>
 
@@ -37,6 +37,6 @@ This program offers a good opportunity for people who wish to be part of DISHA b
 
 Email ID : [komal.20231121@students.iiserpune.ac.in](mailto:komal.20231121@students.iiserpune.ac.in)
 
-#### Nayana Prakash Suvarnakar
+#### Nayana
 
 Email ID: [nayana.prakashsuvarnakar@students.iiserpune.ac.in](mailto:nayana.prakashsuvarnakar@students.iiserpune.ac.in)

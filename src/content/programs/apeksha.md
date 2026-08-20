@@ -3,7 +3,7 @@ title: "Apeksha"
 date: "2026-08-15"
 summary: "A revamped programme (formerly Prerna) to empower and guide young minds beyond the classroom."
 icon: "🌱"
-image: "/images/img_3631.jpg"
+image: "/images/apeksha-main.jpg"
 order: 2
 active: true
 ---
