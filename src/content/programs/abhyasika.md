@@ -39,11 +39,13 @@ To prevent any child from dropping out of school and to keep them in the educati
 
 #### Himanshu Chahande
 
-Email ID: himanshu.vinodchahande@students.iiserpune.ac.in
+Email ID: [himanshu.vinodchahande@students.iiserpune.ac.in](mailto:himanshu.vinodchahande@students.iiserpune.ac.in)
+
 
 <!-- ![](/images/faces_users-10.png) -->
 
 #### Yashwanth Ganapathineni
 
-Email ID: ganapathineni.yashwanth@students.iiserpune.ac.in
+Email ID: [ganapathineni.yashwanth@students.iiserpune.ac.in](mailto:ganapathineni.yashwanth@students.iiserpune.ac.in)
+
 
