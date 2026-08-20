@@ -35,20 +35,15 @@ To prevent any child from dropping out of school and to keep them in the educati
 
 ## Program Coordinators
 
-![](/images/faces_users-09.png)
+<!-- ![](/images/faces_users-09.png) -->
 
-#### Shashwati
+#### Himanshu Chahande
 
-Email ID: shashwati.h@students.iiserpune.ac.in
+Email ID: himanshu.vinodchahande@students.iiserpune.ac.in
 
-![](/images/faces_users-10.png)
+<!-- ![](/images/faces_users-10.png) -->
 
-#### Shivani Avadhani
+#### Yashwanth Ganapathineni
 
-Email ID: shivani.avadhani@students.iiserpune.ac.in
+Email ID: ganapathineni.yashwanth@students.iiserpune.ac.in
 
-![](/images/faces_users-02.png)
-
-#### Yash Karampuri
-
-Email ID: karampuri.yash@students.iiserpune.ac.in
