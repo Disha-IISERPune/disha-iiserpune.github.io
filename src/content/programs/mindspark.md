@@ -72,20 +72,20 @@ Considering the pandemic situation, Mindspark has focused on redesigning its fra
 
 ## Program Coordinators
 
-![](/images/faces_users-05.png)
+<!-- ![](/images/faces_users-05.png) -->
 
-#### Atharva Bhide
+#### Deepti Rani Singh
 
-Email ID: [atharva.bhide@students.iiserpune.ac.in](mailto:atharva.bhide@students.iiserpune.ac.in)
+Email ID: [deepti.rani@students.iiserpune.ac.in](mailto:deepti.rani@students.iiserpune.ac.in)
 
-![](/images/faces_users-03.png)
+<!-- ![](/images/faces_users-03.png) -->
 
-#### TN Suhal Siva Ratan
+#### Denzel Deepak George
 
-Email ID: [tn.ratan@students.iiserpune.ac.in](mailto:tn.ratan@students.iiserpune.ac.in)
+Email ID: [denzel.dgeorge@students.iiserpune.ac.in](mailto:denzel.dgeorge@students.iiserpune.ac.in)
 
-![](/images/faces_users-05.png)
+<!-- ![](/images/faces_users-05.png) -->
 
-#### Vinayak Pendse
+#### Kuhu Bhatt
 
-Email ID: [vinayak.pendse@students.iiserpune.ac.in](mailto:vinayak.pendse@students.iiserpune.ac.in)
+Email ID: [kuhu.bhatt@students.iiserpune.ac.in](mailto:kuhu.bhatt@students.iiserpune.ac.in)
