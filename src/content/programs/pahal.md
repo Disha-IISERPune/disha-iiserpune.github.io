@@ -1,18 +1,16 @@
 ---
 title: "Pahal"
 date: "2013-08-21"
-summary: "Disha’s newsletter — a yearly roundup of everything that happened in Disha."
+summary: "Disha’s Outreach program - Reporting everything that happens in Disha."
 icon: "📰"
 image: "/images/pahal_temp_logo.png"
 order: 9
 active: true
 ---
 
-> Disha's Official Newsletter - Add Pahal motto here
+> Social outreach program of Disha
 
 ## Pahal '19
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 [Get pahal '19](/uploads/2020/03/pahal19-e-copy.pdf "/uploads/2020/03/pahal19-e-copy.pdf")
 
