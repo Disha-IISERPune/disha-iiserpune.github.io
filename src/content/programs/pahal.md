@@ -8,7 +8,19 @@ order: 9
 active: true
 ---
 
-> Social outreach program of Disha
+> Making Disha accessible to a much wider audience.
+
+### Who are we?
+
+We are the part of Disha which handles the social media, content creation, blogs and newsletter. We keep records of whatever is happening in Disha. We tell the world what Disha does.
+
+### What we do?
+
+We create content about Disha that aims to reach all kinds of audiences, from students to professors and from parents to kids. We write blogs about the experience of volunteers, kids, coordinators and whoever is associated with Disha, we conduct interviews of various kinds of people in Disha, we create reels and shorts about Disha, and we also manage the website.
+
+### Who can join us 
+
+Anyone with a creative mindset and an interest in content creation, writing, storytelling, or communication can join us. You don’t need to be an expert or have prior experience, if you have ideas, enjoy exploring new topics, and are willing to learn and contribute, there’s a place for you in our team. Whether you enjoy writing blogs, conducting interviews, creating reels and shorts or coming up with fresh content ideas, you can be a part of our team and help us make Disha great.
 
 ## Pahal '19
 
