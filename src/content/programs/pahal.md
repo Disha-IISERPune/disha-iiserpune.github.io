@@ -22,11 +22,6 @@ We create content about Disha that aims to reach all kinds of audiences, from st
 
 Anyone with a creative mindset and an interest in content creation, writing, storytelling, or communication can join us. You don’t need to be an expert or have prior experience, if you have ideas, enjoy exploring new topics, and are willing to learn and contribute, there’s a place for you in our team. Whether you enjoy writing blogs, conducting interviews, creating reels and shorts or coming up with fresh content ideas, you can be a part of our team and help us make Disha great.
 
-## Pahal '19
-
-[Get pahal '19](/uploads/2020/03/pahal19-e-copy.pdf "/uploads/2020/03/pahal19-e-copy.pdf")
-
-[Get Earlier Issues](#pahalPreviousIssues "#pahalPreviousIssues")
 
 ### **Pahal - Disha's Newsletter**
 
@@ -46,6 +41,8 @@ What does “Pahal” want? For you to know what's happening. For you to feel th
 Be a part of the movement. Be a part of this platform for ideas. It’s time to do what you know is right. All it takes is a little push. Help us be that push.
 
 #### Earlier Issues
+
+[pahal '19](/uploads/2020/03/pahal19-e-copy.pdf "/uploads/2020/03/pahal19-e-copy.pdf")
 
 [Oct '16](/uploads/2016/11/pahal-oct1.pdf "/uploads/2016/11/pahal-oct1.pdf")
 
