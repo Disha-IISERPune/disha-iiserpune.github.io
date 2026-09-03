@@ -8,42 +8,32 @@ order: 5
 active: true
 ---
 
-## Our vision is to teach kids _Why_ and _How_ to think rationally in every aspect of life and spark among them an interest in science.
+## "Science Nurture Program" is an outreach initiative organised under Disha at IISER Pune. It gives select 9th-grade students from schools across Pune a window into science and math the way their classrooms rarely get to show it.
 
-<figure>
+## To make science feel fun, curious, and alive.
 
-![Two girls observing the internal frame of a truck at the Pimpri Chinchwad Science Park](/images/snp-students-observing-a-truck.jpg)
+Our motto is to inspire these students to learn science in a way that promotes rational and critical thinking, not memorization for an exam. We don't confine ourselves to the school syllabus. Our sessions often venture well beyond it into genuinely advanced topics, taught in a simplified, intuitive, non-rigorous way, because our goal was never for students to master every concept in one sitting.
 
-<figcaption>
+### Who We Cater To
 
-Students observing internal workings of a truck at Pimpri Chinchwad Science Park
+We target 9th-grade students selected from schools across Pune. Since SNP is an extracurricular initiative aimed at underprivileged students, we hold selection exams across our partner schools to identify students whose academic fundamentals are strong enough that they can take on something beyond their regular curriculum.
 
-</figcaption>
+### Why We Cater To Them
 
-</figure>
+Their everyday school education is restrictive, and we want to give them a glimpse into the vast, varied landscape of what science and math actually have to offer. Just as importantly, we also revisit the very topics they already study in school, but teach them with the depth and wonder that today's education system so often fails to give them. No single session is meant to make a student a master of anything; it's meant to spark something, a flicker of curiosity toward a topic or toward science itself, that they can go on to explore further with our continued guidance, someone else's, or entirely on their own.
 
-#### Who We Cater To
+### How We Do It
 
-9th standard students, generally with underprivileged background from schools in the vicinity of IISER. We try to take 10-15 kids each from around 3 schools.
+We meet every Sunday, 11 AM to 4 PM, at the Lecture Hall Complex (LHC). Our sessions lean on fun science demonstrations and experiments, and stay interactive through active discussion, both between students and volunteers, and among the students themselves. Behind the scenes, we run weekly Session Making Sessions (SMS's) to prepare for each Sunday.
 
-#### Why We Cater To Them
+### Our Goals
 
-We believe that kids at around this age are getting ready to step into the world and they should know how to approach the problems and events in rational ways (say they see an advertisement in which they should question the validity of claims or say they hear some data from a politician they ought to understand the implications of the claims, etc) and to give them a flavor of science to so that they can be a part of this pursuit if they want.
+1.) To spark curiosity toward a topic, or toward science itself, that students can go on to explore further, whether with our help, someone else's, or entirely on their own.
 
-#### How We Do It
+2.) To revisit the topics they already study in school, but teach them with the depth and wonder that the current education system often lacks.
 
-We have two sessions on every Sunday spanning from 11:00 A.M to 3:30 P.M with a break in between. The sessions are conducted by volunteers who are students at the college, and are generally around 1 hr 30 min long. In general, one of the sessions is a discussion style (1 volunteer : 2-4 kids) which is thought intensive and the other is a Lecture style session for the popularization. The sessions take place in one of the rooms of the Lecture Hall Complex (LHC), IISER.
-
+3.) To give students a glimpse into the vast, varied landscape of science and math that a restrictive syllabus rarely shows them.
 * * *
-
-#### Mission Statement
-
-To get closer to the vision of the program
-
-#### Annual Goals
-
-1.To develop testing parameters to measure the change in kids i.e effectiveness of program  
-2.To have the students engaged through out the week somehow since they only come once a weekend.
 
 ## Program Coordinators
 
