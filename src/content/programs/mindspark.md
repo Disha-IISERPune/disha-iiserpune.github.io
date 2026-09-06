@@ -1,72 +1,50 @@
 ---
 title: "Mindspark"
 date: "2020-02-26"
-summary: "Interactive, hands-on science sessions that spark curiosity in school students."
+summary: " Interactive sessions that help underprivileged kids build a strong academic  foundation for the future they want."
 icon: "💡"
 image: "/images/mindspark-1200x900-picture-mihir-neve.png"
 order: 3
 active: true
 ---
 
-## We want to see all students cherish and comprehend what they learn and simultaneously steer them towards being socially aware and responsible citizens.
+##  “Our vision is to impart the spirit of learning and nurture curiosity.”  
 
 <figure>
 
-![Students learn to make paper bags out of newspapers, upon being instructed by a Mindspark Volunteer.](/images/mindspark-1200x900-picture-mihir-neve.png)
-
-<figcaption>
-
-Mindspark students and volunteers enjoy a paper bag making activity after an exciting session on environmental conservation
-
-</figcaption>
+![Volunteers interacting with the students.] (/images/mindspark_2026_4)
 
 </figure>
 
-### Who We Cater To
+ 
+### The Audience for Mindspark    
 
-Mindspark generally chooses a few keen students of Class VIII from government or government-aided schools around IISER Pune for its program. Mindspark caters to around 30 students every year.
+We focus mainly on 7th and 8th graders studying in schools close to our institute, primarily government and government-aided schools. 
+The students do not undergo a selection process of any kind, anyone who is  interested is free to join us. This is because we believe that the foundations we aim  to build at Mindspark should be available to any and all  kids, regardless of their current academic level, as they are core ideas everyone should have. Keeping this in mind, we direct our efforts towards making the availability of the resources needed for this better distributed and work towards leveling the playing field for all. We focus on this specific age group because we believe that this is a crucial turning point in a person’s life where a small nudge in the right direction can help them achieve their maximum potential. The core concepts we hope to teach are also fundamental in learning anything at a high school level and hence must be solidified at this point. Kids this age are also very open to learning new things and quick to pick up a variety of new concepts.
 
-These kids are selected through their performance in an entrance exam, followed by a short summer camp. Both these methods of selection are not aimed towards choosing the best from a lot, as this would effectively contradict the basal philosophy of Disha. Instead, the test allows us to understand their levels of content knowledge and comprehension. Additionally, the camp helps us choose those students who are highly interested in learning with our methods and can use our resources to its maximal potential.
+### The Need for Mindspark  
 
-### Why We Cater To Them
+The unfortunate reality of our world is that there are large systemic differences in place which creates a wide disparity of opportunity. Like all programs of Disha, we  also aim to bridge this gap to the best of our abilities. Even though these kids are part of a schooling system, we hope to give them more personal care and attention to strengthen their understanding. This is the driving principle of Mindspark.    The art of learning is also one which requires a specific mindset and approach, what we call ‘the spirit of learning’. It involves asking the right questions and having the endurance to tunnel through a difficult problem, skills crucial to life itself. This must also be accompanied by a strong drive, the thirst to know more – curiosity. We hope to mould both of these qualities through our sessions. 
+Ultimately, we strive to provide kids with a strong toolkit and a steady foundation for a wide variety of opportunities.   
 
-Mindspark was initiated to aid bright students from underprivileged backgrounds to help them prepare and appear in the annual MSCE Pune Scholarship Exam. However, with time, we realized that these students lacked in understanding most of the elementary concepts taught in their curriculum. This, along with temporal constraints and a need for more realistic goals, made us steer Mindspark towards unexplored Paths. 
+### The Methodology of Mindspark      
+As our program revolves around foundational topics, we teach the children basic Mathematics and English. Mathematics is essential for almost any field one wishes to venture into. The essence of learning Mathematics revolves not around the capability to solve many equations but instead around the cultivation of logic. 
+In this day and age, English has grown to become the universal language and the medium through which any kind of higher-level information is accessible. Hence, a strong grasp of the language is necessary to move about comfortably in the modern  world. 
 
-Currently, the driving force of this program is the hope that students will start to enjoy what they learn, only if they try to grasp the shadowed concepts involved. Moreover, we feel that this doing so shall encourage them to continue learning more in their future years. 
+Since a large school-like system may not be able to give kids the individual attention they deserve, we hold our sessions in a one-on-one manner. The volunteers who teach them are not only posed as educators but as friends whom they can easily approach. We also try to incorporate fun games and puzzles to keep the kids engaged and not make learning a chore. Through such a non-conventional teaching style, we hope to help the kids build a healthy relationship towards learning. 
+In addition to this, we also hold computer sessions to keep them up to date  with the digital world and equip them with the tools to learn independently.
 
-Thus, it was decided that Mindspark will focus on academic and social growth which should benefit in the overall development of these students. The path to be taken, though, should be filled with games and activities that make learning memorable for them.
+### The Schedule of Mindspark      
+We hold sessions thrice a week:  ● Wednesdays: 4PM to 6PM  
+● Saturdays: 4PM
+Personal Statements from the Current Coordinators (2026-27)    “Initially, I joined Mindspark because I love teaching for it and it was just about  teaching Maths and English. But after a few sessions, I realized it wasn't just  concepts that I liked, it was the way the kids got engaged with learning and  seeing us as their role models. This became a way for me to relax ,have fun  and a much needed break from a hectic schedule. No matter how much the  week has been hectic for me but after teaching seeing a small smile on their  face made me happy. And by the end of the year the students taught me more  than I taught them.”  -  Deepti ● Sundays: 9AM to 11AM, 11AM to 1PM 
 
-### How We Do It
+Learning is a continuous process and by having 3 sessions a week, we hope to establish a rhythm of learning. Having more sessions also means that we are able to cover topics with more care and detail, ensuring all students are caught up. Sunday sessions are longer (4 hours) with a break in between to provide time for more out-of-the-box activities, with the second half being a common session. Wednesday sessions are crucial to bridge the time jump from the previous Sunday to the next Saturday and are more focused on revising and reviewing previous concepts to help with retention and clarity.  
 
-Each year, Mindspark conducts a set of hour-long sessions from July to April at the Lecture Hall Complex (LHC) at IISER Pune. Every Saturday and Sunday, the children participate in 3-4 such ordered sessions explicitly designed for them. The sessions are created by IISER students, keeping in mind the conceptual outcomes required, while also packing them with activities and practice problems wherever needed. They generally revolve around the following themes:
+Personal Statements from the Current Coordinators (2026-27)
+    “Initially, I joined Mindspark because I love teaching for it and it was just about  teaching Maths and English. But after a few sessions, I realized it wasn't just  concepts that I liked, it was the way the kids got engaged with learning and  seeing us as their role models. This became a way for me to relax ,have fun  and a much needed break from a hectic schedule. No matter how much the  week has been hectic for me but after teaching seeing a small smile on their  face made me happy. And by the end of the year the students taught me more  than I taught them.”  -  Deepti 
 
-1. **Math And Problem Solving** \- Here, we help visualise fundamental concepts of daily importance to the students. Beginning from simple addition, fractions, integers, etc., we climb up to ideas such as those of percentages, graphs, equations, Interests, and Discounts. Alongside, we also have sessions that aim at honing their problem-solving skills through ideas of gears, parity, the odd-one-out etc.  
-    
-2. **English Comprehension** - These sessions focus on making them accustomed with the basic structures of the English language, and on trying to make them comfortable in speaking the same independently. We generally tread through grammar concepts and attach them to interlinked activities such as Roleplays, Video Description, Flashcards, etc. to help them nurture the language within them. The ultimate hope is that their familiarisation with English shall help them connect easily with their textbooks in their future course of study.  
-    
-3. **General Awareness** - These are entirely Ice Breaker sessions where we hope to teach them social topics through various games, experiments, and outdoor activities. Finding directions within IISER using maps, observing weather measuring instruments, first-aid sessions, Games on road safety, Conducting Elections and A model Parliament on an issue dear to them are some activities they enjoyed. 
-
-**Ultimately, a significant help that we would appreciate from anyone of you reading this would be a collection of Ideas. Ideas on how we could innovate this teaching-learning-self-exploring experience for both the students and our volunteers are welcome. If you have any suggestions, please feel free to contact us.**
-
-* * *
-
-### Mission Statement
-
-Mindspark aims to achieve _academic and social growth_ in academically weak students. This is to be done by enhancing their concepts in fundamental mathematics, logical reasoning and English communication skills. Additionally introduce them to certain essential societal aspects such as the making of government policies, banking investments etc.
-
-### Annual Goals
-
-To steer the program in a direction that maximizes the outcomes of the following aspirations for each student.
-
-1. Shows confidence in speaking basic English independently.
-2. Comprehends and responds to English textual material without any help. 
-3. Uses and understands the need for fundamental mathematical tools and terminology.
-4. Gains a basic idea of some social aspects of being a responsible citizen in a community.
-5. Develops some primary problem-solving abilities.
-
-### Pandemic Activities
-
-Considering the pandemic situation, Mindspark has focused on redesigning its framework by encompassing a wide range of topics with more fun activities and thought-provoking questions. This modified structure aims to boost the reasoning ability of the students and help them to get a clearer picture of these concepts. The revised syllabus will be incorporated, once the teaching sessions resume after lockdown.
+   ● “For me personally, the question of the true impact of Mindspark, and Disha  overall, on bridging the large socio-economic gap and opportunity disparity  boils down to the following. Either you can do nothing, and be assured that  there is no change, or, you can try your best to bring about even the smallest  of change and there is a possibility that it works, else, like before, no change.  Ultimately there is nothing to be lost, but even the slightest possibility of a gain  is more than enough for me to give it my best effort.”  -  Denzel    ● “The reason I choose to be a part of Mindspark, and Disha in general, is  because I believe that if we're able to widen the perspectives of the students  even a little bit, then it could potentially lead to more change and open up  doors to more opportunities. Getting them to think independently and question  things is only a small step in the right direction, but it is a step nonetheless.  The hope that we're able to help the students make this starting step is what  motivates me to give it my everything.”  -  Kuhu  
 
 * * *
 
@@ -89,3 +67,8 @@ Email ID: [denzel.dgeorge@students.iiserpune.ac.in](mailto:denzel.dgeorge@studen
 #### Kuhu Bhatt
 
 Email ID: [kuhu.bhatt@students.iiserpune.ac.in](mailto:kuhu.bhatt@students.iiserpune.ac.in)
+
+### Some images
+
+(images/mindspark_2026_3.jpg
+)
