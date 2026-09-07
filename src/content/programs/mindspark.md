@@ -13,7 +13,11 @@ active: true
 <figure>
 
 ![Volunteers interacting with the students.] (/images/mindspark_2026_4.jpg)
+<figcaption>
 
+All vounteers taking a session of mindspark.
+
+</figcaption>
 </figure>
 
  
@@ -21,7 +25,9 @@ active: true
 
 We focus mainly on 7th and 8th graders studying in schools close to our institute, primarily government and government-aided schools. 
 
-The students do not undergo a selection process of any kind, anyone who is  interested is free to join us. This is because we believe that the foundations we aim  to build at Mindspark should be available to any and all  kids, regardless of their current academic level, as they are core ideas everyone should have. Keeping this in mind, we direct our efforts towards making the availability of the resources needed for this better distributed and work towards leveling the playing field for all. We focus on this specific age group because we believe that this is a crucial turning point in a person’s life where a small nudge in the right direction can help them achieve their maximum potential. The core concepts we hope to teach are also fundamental in learning anything at a high school level and hence must be solidified at this point. Kids this age are also very open to learning new things and quick to pick up a variety of new concepts.
+The students do not undergo a selection process of any kind, anyone who is  interested is free to join us. This is because we believe that the foundations we aim  to build at Mindspark should be available to any and all  kids, regardless of their current academic level, as they are core ideas everyone should have. Keeping this in mind, we direct our efforts towards making the availability of the resources needed for this better distributed and work towards leveling the playing field for all. We focus on this specific age group because we believe that this is a crucial turning point in a person’s life where a small nudge in the right direction can help them achieve their maximum potential. 
+
+The core concepts we hope to teach are also fundamental in learning anything at a high school level and hence must be solidified at this point. Kids this age are also very open to learning new things and quick to pick up a variety of new concepts.
 
 ### The Need for Mindspark  
 
@@ -75,7 +81,7 @@ Email ID: [denzel.dgeorge@students.iiserpune.ac.in](mailto:denzel.dgeorge@studen
 Email ID: [kuhu.bhatt@students.iiserpune.ac.in](mailto:kuhu.bhatt@students.iiserpune.ac.in)
 
 ### Some images
-</figure>
-(images/mindspark_2026_3.jpg)
+<figure>
+(/images/mindspark_2026_3.jpg)
 
 </figure>
