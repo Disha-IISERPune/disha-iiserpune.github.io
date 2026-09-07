@@ -80,8 +80,3 @@ Email ID: [denzel.dgeorge@students.iiserpune.ac.in](mailto:denzel.dgeorge@studen
 
 Email ID: [kuhu.bhatt@students.iiserpune.ac.in](mailto:kuhu.bhatt@students.iiserpune.ac.in)
 
-### Some images
-<figure>
-![Kids painting with the volunteers.](/images/mindspark_2026_3.jpg)
-
-</figure>
