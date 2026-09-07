@@ -12,7 +12,7 @@ active: true
 
 <figure>
 
-![Volunteers interacting with the students.] (/images/mindspark_2026_4.jpg)
+![Volunteers interacting with the students.](/images/mindspark_2026_4.jpg)
 <figcaption>
 
 All vounteers taking a session of mindspark.
@@ -82,6 +82,6 @@ Email ID: [kuhu.bhatt@students.iiserpune.ac.in](mailto:kuhu.bhatt@students.iiser
 
 ### Some images
 <figure>
-(/images/mindspark_2026_3.jpg)
+![Kids painting with the volunteers.](/images/mindspark_2026_3.jpg)
 
 </figure>
